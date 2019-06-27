@@ -10,7 +10,8 @@
 | and give it the Closure to call when that URI is requested.
 |
 */
+$router->group(['prefix' => 'api'], function () use ($router) {
+    $router->post('/register', 'SignupController@createSignup');
 
-$router->get('/', function () use ($router) {
-    return $router->app->version();
+    $router->get('/countsignups', 'SignupController@countSignups');
 });
