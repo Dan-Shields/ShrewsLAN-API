@@ -12,7 +12,9 @@ class SignupController extends Controller
         $this->validate($request, [
             'name' => 'required|string',
             'email' => 'required|email|unique:signups',
-            'days' => 'required|in:20,21,both'
+            'days' => 'required|in:20,21,both',
+            'games' => 'JSON',
+            'other' => 'string'
         ]);
 
         $signup = Signup::create($request->all());

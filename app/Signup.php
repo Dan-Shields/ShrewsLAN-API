@@ -12,7 +12,7 @@ class Signup extends Model
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'days',
+        'name', 'email', 'days', 'games', 'other',
     ];
 
     /**
