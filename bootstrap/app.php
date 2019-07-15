@@ -80,6 +80,15 @@ $app->middleware([
 // $app->register(App\Providers\AuthServiceProvider::class);
 // $app->register(App\Providers\EventServiceProvider::class);
 
+$app->register(Flipbox\LumenGenerator\LumenGeneratorServiceProvider::class);
+
+// Sendgrid stuff
+$app->configure('mail');
+$app->configure('services');
+$app->register(Sichikawa\LaravelSendgridDriver\MailServiceProvider::class);
+
+unset($app->availableBindings['mailer']);
+
 /*
 |--------------------------------------------------------------------------
 | Load The Application Routes
