@@ -12,6 +12,11 @@
 			<p>Only a few days left now, so here's all you need to know to prepare yourself for the LAN!</p>
 			
 			<hr style="width: 100%; color: #536CB3;">
+			<h2 style="font-weight: normal; color: #39c0f0">Entry Fee</h2>
+			<p>Please remember that the cost of the LAN is £5 per head, and payment will be expected via cash or PayPal on arrival.</p>
+			<p>This money goes towards the cost of the venue, purchasing of equipment and the organisers' time if any is left over!</p>
+
+			<hr style="width: 100%; color: #536CB3;">
 			<h2 style="font-weight: normal; color: #39c0f0">Downloading Games</h2>
 			<p>Although there is internet at the LAN, with so many people connected at once it will be not suitable for large downloads. As such, please try your best to have games you know you will be playing <b>downloaded and updated</b> before you arrive.</p>
 			<p>A quick list of popular games at previous events:</p>
